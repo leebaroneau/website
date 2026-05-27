@@ -1,0 +1,133 @@
+{
+  "summary": [
+    "Frontend developer with 10+ years spanning digital design, ecommerce delivery, accessibility work and UX-aware web implementation.",
+    "Best fit for teams that need strong frontend execution plus design literacy, accessibility awareness, analytics understanding and cross-functional collaboration."
+  ],
+  "featuredProjects": [
+    "haverford-brands",
+    "uac-reach",
+    "drkzen",
+    "argologic",
+    "clique-threads"
+  ],
+  "experience": [
+    {
+      "company": "Haverford Brands Pty Ltd",
+      "role": "Web Design & E-Commerce Specialist",
+      "location": "Sydney, Australia",
+      "start": "2023-01",
+      "end": null,
+      "overview": "Front-end and ecommerce support across a multi-store Shopify portfolio with a strong focus on UX, branding consistency, product presentation and SEO collaboration.",
+      "highlights": [
+        "Delivered ongoing frontend and design improvements across 15+ Shopify stores, maintaining UX consistency as the portfolio scaled.",
+        "Drove layout, brand presentation and web design decisions for customer-facing journeys in direct collaboration with management.",
+        "Coordinated SEO-aligned web updates with marketing, improving page quality and search-readiness across the portfolio."
+      ]
+    },
+    {
+      "company": "Universities Admissions Centre",
+      "role": "Website Officer",
+      "location": "Sydney, Australia",
+      "start": "2021-09",
+      "end": "2022-09",
+      "overview": "Website operations role covering accessibility, analytics implementation, campaign support, HTML email production and performance reporting.",
+      "highlights": [
+        "Identified, coordinated and tracked accessibility fixes across UAC applications, improving compliance against WCAG standards.",
+        "Implemented and maintained Google Tag Manager, Google Analytics, ADvendio and data-layer tracking, including the first data-layer implementation for a UAC application.",
+        "Built responsive HTML email templates and contributed to website updates, UTM standards and campaign performance reporting."
+      ]
+    },
+    {
+      "company": "DRKZEN Creative",
+      "role": "Creative Director",
+      "location": "Sydney, Australia",
+      "start": "2017-12",
+      "end": "2020-07",
+      "overview": "Led client work across brand identity, UX/UI, content creation, project management and process design.",
+      "highlights": [
+        "Delivered brand identity, UX/UI and multimedia content across a client portfolio spanning digital, print and motion.",
+        "Led projects end-to-end from brief to delivery, managing stakeholders and client communication independently.",
+        "Built a broad, implementation-tested foundation in design systems, visual communication and cross-discipline production."
+      ]
+    },
+    {
+      "company": "IVE Group",
+      "role": "Web Systems UX Support",
+      "location": "Sydney, Australia",
+      "start": "2017-05",
+      "end": "2017-11",
+      "overview": "Front-end and UX support across IVE's Web2Print systems and templated client solutions.",
+      "highlights": [
+        "Delivered frontend customisations and UX improvements inside the PageDNA Web2Print environment.",
+        "Supported variable-data template workflows and client-specific configuration across a range of accounts.",
+        "Contributed HTML and CSS implementation support to the Web2Print team, improving standards and delivery quality."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "year": "2017",
+      "course": "Visual Communication - Bachelor",
+      "institution": "University of Technology Sydney"
+    },
+    {
+      "year": "2012",
+      "course": "Graphic Design & Communication - Diploma",
+      "institution": "Design Centre Enmore"
+    },
+    {
+      "year": "2007",
+      "course": "Higher School Certificate",
+      "institution": "Bankstown Grammar School"
+    }
+  ],
+  "skillGroups": [
+    {
+      "name": "Frontend & Ecommerce",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive design",
+        "Shopify",
+        "Shopify Liquid",
+        "Craft CMS",
+        "HTML email"
+      ]
+    },
+    {
+      "name": "Accessibility & Analytics",
+      "items": [
+        "Accessibility issue triage",
+        "Google Tag Manager",
+        "Google Analytics",
+        "Google Ads setup support",
+        "UTM standards",
+        "Data layer implementation",
+        "Performance reporting"
+      ]
+    },
+    {
+      "name": "Design & Content",
+      "items": [
+        "UX/UI",
+        "Brand identity",
+        "Photography",
+        "Video production",
+        "Adobe Creative Cloud",
+        "Content systems"
+      ]
+    },
+    {
+      "name": "Ways of Working",
+      "items": [
+        "Stakeholder management",
+        "Project management",
+        "Team collaboration",
+        "Problem solving",
+        "Process design",
+        "Detail orientation"
+      ]
+    }
+  ]
+}

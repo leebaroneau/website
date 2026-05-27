@@ -1,0 +1,42 @@
+{
+  "name": "Argo Logic",
+  "client": "Argo Logic",
+  "role": "Design and Implementation Lead",
+  "periodLabel": "Agency project",
+  "summary": "Site UI and implementation work delivered through agency-side collaboration.",
+  "skills": [
+    "UI design",
+    "Frontend implementation",
+    "Brand translation"
+  ],
+  "deliverables": [
+    "Site UI",
+    "Implementation"
+  ],
+  "links": [
+    {
+      "label": "Live site",
+      "url": "https://argologic.com.au/"
+    }
+  ],
+  "featured": true,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 202000,
+  "bestForRoles": [
+    "Frontend Developer",
+    "UI Developer"
+  ],
+  "storyAngles": [
+    "Site UI direction",
+    "Implementation delivery"
+  ],
+  "interviewHighlights": [
+    "Useful proof of agency-side UI and implementation work",
+    "Good supporting example when talking about shipping branded websites"
+  ],
+  "repo": {
+    "localPath": "repos/argologic",
+    "remoteUrl": ""
+  }
+}

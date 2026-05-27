@@ -1,0 +1,47 @@
+{
+  "name": "Haverford Brands Shopify Portfolio",
+  "client": "Haverford Brands Pty Ltd",
+  "role": "Web Design & E-Commerce Specialist",
+  "start": "2023-01",
+  "end": null,
+  "summary": "Ongoing front-end and ecommerce support across a multi-store Shopify portfolio with a focus on UX, visual consistency and merchandising.",
+  "skills": [
+    "Shopify",
+    "Liquid",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SEO collaboration",
+    "Brand systems"
+  ],
+  "deliverables": [
+    "Theme updates",
+    "Brand and visual refreshes",
+    "Product presentation improvements",
+    "SEO support"
+  ],
+  "links": [],
+  "featured": true,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 202601,
+  "bestForRoles": [
+    "Frontend Developer",
+    "E-Commerce Frontend Developer",
+    "Web Designer"
+  ],
+  "storyAngles": [
+    "Shopify execution",
+    "Design-to-build workflow",
+    "Cross-functional ecommerce delivery"
+  ],
+  "interviewHighlights": [
+    "Worked across a multi-store Shopify portfolio",
+    "Balanced brand presentation, UX and day-to-day implementation",
+    "Partnered with marketing on SEO and site improvements"
+  ],
+  "repo": {
+    "localPath": "repos/haverford-brands",
+    "remoteUrl": ""
+  }
+}

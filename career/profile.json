@@ -1,0 +1,134 @@
+{
+  "name": "Lee Barone",
+  "role": "Frontend Developer",
+  "headline": "Frontend developer for teams that care about UX, accessibility and measurable outcomes.",
+  "shortBio": [
+    "I started in visual communication and grew into implementation-heavy web work across ecommerce, accessibility, analytics and brand systems.",
+    "I am strongest in frontend roles where implementation quality, user experience and cross-functional collaboration all matter, not just raw ticket throughput."
+  ],
+  "location": "Sydney, Australia",
+  "email": "leebaroneau@gmail.com",
+  "phone": "0411 029 454",
+  "resumeFileName": "lee-barone-resume.pdf",
+  "sourceResumeFileName": "lee-barone-resume-source.pdf",
+  "siteDescription": "Career workspace, resume site and project library for Lee Barone.",
+  "publicLinks": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/leebaroneau/"
+    }
+  ],
+  "privateLinks": [
+    {
+      "label": "Career Review Notion",
+      "url": "https://www.notion.so/leebaroneau/Career-Review-Search-0f88e1d3975b4195a06de72251371429"
+    }
+  ],
+  "focusAreas": [
+    "Frontend development",
+    "E-commerce UX",
+    "Accessibility",
+    "Analytics implementation",
+    "Brand systems"
+  ],
+  "tools": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Shopify Liquid",
+    "Tailwind CSS",
+    "Google Tag Manager",
+    "Google Analytics",
+    "Adobe Creative Cloud",
+    "Craft CMS",
+    "HTML email",
+    "Git",
+    "Node.js"
+  ],
+  "values": [
+    "User-centred problem solving",
+    "Measured iteration",
+    "Strong collaboration",
+    "Clear systems",
+    "Continuous learning"
+  ],
+  "liveSite": {
+    "audience": "Recruiters, hiring managers and team leads assessing fit for frontend roles in product, e-commerce and digital teams.",
+    "availability": "Open to frontend roles with meaningful product ownership, strong collaboration and room to keep growing technically over the long term.",
+    "proofStats": [
+      {
+        "value": "10+ yrs",
+        "label": "Web delivery from visual design through to frontend implementation"
+      },
+      {
+        "value": "15+",
+        "label": "Shopify stores maintained across a live multi-brand ecommerce portfolio"
+      },
+      {
+        "value": "A11y",
+        "label": "Accessibility triage, remediation and implementation coordination"
+      },
+      {
+        "value": "GTM + GA",
+        "label": "Analytics, data layer and tracking implementation across multiple platforms"
+      }
+    ],
+    "targetRoles": [
+      "Frontend Developer",
+      "UX Engineer",
+      "E-commerce Frontend Developer"
+    ],
+    "idealEnvironment": [
+      "Design-aware product or ecommerce teams",
+      "Clear ownership with room for mentorship and growth",
+      "Teams that value accessibility, user experience and measurable improvement",
+      "Collaborative environments across product, design, marketing and engineering"
+    ],
+    "careerPriorities": [
+      "Stronger technical growth",
+      "Meaningful product impact",
+      "Healthy collaboration",
+      "Long-term career progression"
+    ],
+    "trustSignals": [
+      "Haverford Brands",
+      "UAC",
+      "DRKZEN Creative",
+      "IVE Group"
+    ],
+    "valuePillars": [
+      {
+        "title": "Frontend execution with context",
+        "copy": "I do not approach frontend as isolated tickets. I work from user journey, brand clarity and business outcome back into the implementation.",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Responsive UI"
+        ]
+      },
+      {
+        "title": "UX, accessibility and measurement",
+        "copy": "My strongest work usually improves clarity, accessibility and tracking at the same time, so teams get a better experience and a better signal on what is working.",
+        "tags": [
+          "Accessibility",
+          "Analytics",
+          "Data layer",
+          "HTML email"
+        ]
+      },
+      {
+        "title": "Design-aware collaboration",
+        "copy": "Because I come from visual communication and digital design, I translate well between design, marketing and implementation teams without losing the details.",
+        "tags": [
+          "Brand systems",
+          "E-commerce UX",
+          "Stakeholder management",
+          "Content systems"
+        ]
+      }
+    ]
+  }
+}

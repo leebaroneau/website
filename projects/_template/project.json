@@ -1,0 +1,40 @@
+{
+  "name": "Template Project",
+  "client": "Template Client",
+  "role": "Frontend Developer",
+  "periodLabel": "2026",
+  "summary": "One-line summary of the project, the problem space and the kind of outcome it created.",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "deliverables": [
+    "Landing page",
+    "Design system",
+    "Case study"
+  ],
+  "links": [
+    {
+      "label": "Live site",
+      "url": "https://example.com"
+    }
+  ],
+  "featured": false,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 202600,
+  "bestForRoles": [
+    "Frontend Developer"
+  ],
+  "storyAngles": [
+    "Design-to-build execution"
+  ],
+  "interviewHighlights": [
+    "Add the strongest talking points for interviews"
+  ],
+  "repo": {
+    "localPath": "repos/template-project",
+    "remoteUrl": ""
+  }
+}

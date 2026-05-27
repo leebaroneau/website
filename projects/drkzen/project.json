@@ -1,0 +1,51 @@
+{
+  "name": "DRKZEN Creative",
+  "client": "DRKZEN Creative",
+  "role": "Creative Director",
+  "start": "2017-12",
+  "end": "2020-07",
+  "summary": "Agency-led work across branding, UX/UI, multimedia content and project delivery for a broad client mix.",
+  "skills": [
+    "Brand identity",
+    "UX/UI",
+    "Photography",
+    "Video production",
+    "Project management",
+    "Stakeholder management"
+  ],
+  "deliverables": [
+    "Brand systems",
+    "Web design",
+    "Content creation",
+    "Client delivery"
+  ],
+  "links": [
+    {
+      "label": "DRKZEN",
+      "url": "https://drkzen.com/"
+    }
+  ],
+  "featured": true,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 202007,
+  "bestForRoles": [
+    "Frontend Developer",
+    "Product Designer",
+    "UX Engineer"
+  ],
+  "storyAngles": [
+    "Agency delivery",
+    "Brand systems",
+    "End-to-end creative ownership"
+  ],
+  "interviewHighlights": [
+    "Led client projects from concept through delivery",
+    "Handled brand, UX/UI and multimedia production",
+    "Built strong stakeholder and project management foundations"
+  ],
+  "repo": {
+    "localPath": "repos/drkzen",
+    "remoteUrl": ""
+  }
+}

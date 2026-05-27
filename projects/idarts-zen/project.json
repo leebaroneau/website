@@ -1,0 +1,41 @@
+{
+  "name": "iDarts Zen",
+  "client": "iDarts Zen",
+  "role": "Web and Social Support",
+  "periodLabel": "Agency project",
+  "summary": "Website and social media support for a client project listed in the career notes.",
+  "skills": [
+    "Website design",
+    "Content support",
+    "Social media"
+  ],
+  "deliverables": [
+    "Website",
+    "Social media support"
+  ],
+  "links": [
+    {
+      "label": "Live site",
+      "url": "https://www.idartszen.com.au/"
+    }
+  ],
+  "featured": false,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 201998,
+  "bestForRoles": [
+    "Frontend Developer",
+    "Digital Designer"
+  ],
+  "storyAngles": [
+    "Website support",
+    "Content and social support"
+  ],
+  "interviewHighlights": [
+    "Supporting example for broader digital delivery across channels"
+  ],
+  "repo": {
+    "localPath": "repos/idarts-zen",
+    "remoteUrl": ""
+  }
+}

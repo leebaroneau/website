@@ -1,0 +1,49 @@
+{
+  "name": "Clique Threads",
+  "client": "Clique Threads",
+  "role": "Brand and Web Lead",
+  "periodLabel": "Agency project",
+  "summary": "Brand system, logo, styleguide, site UI and implementation for a fashion-focused client project.",
+  "skills": [
+    "Brand identity",
+    "Logo design",
+    "Styleguides",
+    "UI design",
+    "Frontend implementation"
+  ],
+  "deliverables": [
+    "Branding",
+    "Logo",
+    "Styleguide",
+    "Site UI",
+    "Implementation"
+  ],
+  "links": [
+    {
+      "label": "Live site",
+      "url": "https://cliquethreads.com/"
+    }
+  ],
+  "featured": true,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 201999,
+  "bestForRoles": [
+    "Frontend Developer",
+    "Product Designer",
+    "Brand-led digital role"
+  ],
+  "storyAngles": [
+    "Identity to implementation",
+    "Styleguide creation",
+    "End-to-end project ownership"
+  ],
+  "interviewHighlights": [
+    "Strong example of branding, system thinking and web delivery together",
+    "Good project for discussing design rationale and implementation alignment"
+  ],
+  "repo": {
+    "localPath": "repos/clique-threads",
+    "remoteUrl": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "UAC Reach Platform",
+  "client": "Universities Admissions Centre",
+  "role": "Website Officer",
+  "start": "2021-09",
+  "end": "2022-09",
+  "summary": "Accessibility, analytics and website operations work across UAC applications, web content and HTML email campaigns.",
+  "skills": [
+    "Accessibility",
+    "Google Tag Manager",
+    "Google Analytics",
+    "Data layer implementation",
+    "HTML email",
+    "Craft CMS",
+    "Performance reporting"
+  ],
+  "deliverables": [
+    "Accessibility monitoring",
+    "Analytics setup and QA",
+    "Email template production",
+    "Website updates"
+  ],
+  "links": [
+    {
+      "label": "UAC Reach",
+      "url": "https://www.uac.edu.au/reach-home"
+    }
+  ],
+  "featured": true,
+  "public": true,
+  "status": "Seeded",
+  "sortKey": 202209,
+  "bestForRoles": [
+    "Frontend Developer",
+    "UX Engineer",
+    "Accessibility-focused web role"
+  ],
+  "storyAngles": [
+    "Accessibility operations",
+    "Analytics implementation",
+    "Systematic website quality work"
+  ],
+  "interviewHighlights": [
+    "Coordinated accessibility fixes across live applications",
+    "Worked on Google product implementation and data-layer setup",
+    "Built responsive HTML email templates and reporting workflows"
+  ],
+  "repo": {
+    "localPath": "repos/uac-reach",
+    "remoteUrl": ""
+  }
+}
