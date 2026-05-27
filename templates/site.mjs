@@ -175,7 +175,7 @@ function renderCompactProject(project) {
 
 function renderProofStat(item) {
   return `<article class="proof-card">
-    <p class="proof-value">${escapeHtml(item.value)}</p>
+    <span class="proof-value">${escapeHtml(item.value)}</span>
     <p class="proof-label">${escapeHtml(item.label)}</p>
   </article>`;
 }
@@ -447,7 +447,7 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
       <a class="skip-link" href="#main-content">Skip to main content</a>
       <header class="site-header">
         <a class="brand" href="#main-content">
-          <span class="brand-kicker">Live site</span>
+          <span class="brand-kicker">Portfolio</span>
           <span class="brand-name">${escapeHtml(profile.name)}</span>
         </a>
         <nav class="site-nav">
@@ -460,51 +460,27 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
         </nav>
       </header>
 
-      <main class="page-shell" id="main-content">
-        <section class="hero">
-          <div class="hero-copy">
-            <p class="eyebrow">${escapeHtml(profile.role)}</p>
-            <h1>${escapeHtml(profile.headline)}</h1>
-            <p class="hero-audience">${escapeHtml(liveSite.audience ?? "")}</p>
-            ${profile.shortBio.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
-            <div class="button-row">
-              <a class="button button-primary" href="${escapeHtml(paths.resumePdf)}">Download latest resume</a>
-              <a class="button button-secondary" href="${escapeHtml(paths.resumePage)}">Open resume view</a>
-              <a class="button button-secondary" href="mailto:${escapeHtml(profile.email)}">Email Lee</a>
-            </div>
-            ${renderExternalLinks(profile.publicLinks ?? [], "hero-links")}
+      <section class="hero-section" id="main-content">
+        <div class="hero-inner">
+          <p class="hero-eyebrow">${escapeHtml(profile.role)}</p>
+          <h1>${escapeHtml(profile.name)}</h1>
+          <p class="hero-tagline">${escapeHtml(profile.headline)}</p>
+          <div class="button-row">
+            <a class="button button-primary" href="${escapeHtml(paths.resumePdf)}">Download resume</a>
+            <a class="button button-secondary" href="${escapeHtml(paths.resumePage)}">Open resume</a>
           </div>
+          ${renderExternalLinks(profile.publicLinks ?? [], "hero-links")}
+        </div>
+      </section>
 
-          <aside class="hero-panel">
-            <p class="meta-label">Hiring snapshot</p>
-            <h2>${escapeHtml(profile.name)}</h2>
-            <p>${escapeHtml(liveSite.availability ?? profile.location)}</p>
-            <p><a href="mailto:${escapeHtml(profile.email)}">${escapeHtml(profile.email)}</a></p>
-            <p><a href="tel:${escapeHtml(profile.phone.replace(/\s+/g, ""))}">${escapeHtml(profile.phone)}</a></p>
-            <div class="detail-stack">
-              <div>
-                <span class="detail-label">Current focus</span>
-                <strong>${escapeHtml(profile.focusAreas[0] ?? "Frontend")}</strong>
-              </div>
-              <div>
-                <span class="detail-label">Featured projects</span>
-                <strong>${featuredSelection.length}</strong>
-              </div>
-              <div>
-                <span class="detail-label">Generated</span>
-                <strong>${escapeHtml(new Date(generatedOn).toLocaleDateString("en-AU"))}</strong>
-              </div>
-            </div>
-          </aside>
-        </section>
-
+      <main class="page-shell">
         <section class="section" id="proof">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Proof</p>
               <h2>Fast trust signals for recruiters and hiring teams</h2>
             </div>
-            <p class="section-copy">The first scan should answer fit quickly: experience range, domain strengths and the kind of work I have been trusted to ship.</p>
+            <p class="section-copy">Experience range, domain strengths and the kind of work I have been trusted to ship.</p>
           </div>
           <div class="proof-grid">
             ${(liveSite.proofStats ?? []).map(renderProofStat).join("")}
@@ -522,7 +498,7 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
           </article>
           <article class="info-panel">
             <p class="eyebrow">Best-fit teams</p>
-            <h2>The environments I am actively optimizing for</h2>
+            <h2>The environments I am actively optimising for</h2>
             ${renderTagList(liveSite.idealEnvironment ?? [])}
           </article>
           <article class="info-panel">
@@ -530,6 +506,32 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
             <h2>What makes a role rewarding and worth building around</h2>
             ${renderTagList(liveSite.careerPriorities ?? [])}
           </article>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Selected work</p>
+              <h2>Case studies that best represent my frontend and UX-adjacent strengths</h2>
+            </div>
+            <p class="section-copy">Selective by design. The stories I would want a hiring team to see first.</p>
+          </div>
+          <div class="project-grid">
+            ${featuredSelection.map((project) => renderProjectCard(project, `#project-${project.slug}`)).join("")}
+          </div>
+        </section>
+
+        <section class="section" id="value">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Value</p>
+              <h2>What I bring to a frontend team beyond implementation alone</h2>
+            </div>
+            <p class="section-copy">How I think, where I add leverage, why my background is useful in cross-functional teams.</p>
+          </div>
+          <div class="value-pillar-grid">
+            ${(liveSite.valuePillars ?? []).map(renderValuePillar).join("")}
+          </div>
         </section>
 
         <section class="section" id="experience">
@@ -545,39 +547,13 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
           </div>
         </section>
 
-        <section class="section" id="projects">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Selected work</p>
-              <h2>Curated case studies that best represent my frontend and UX-adjacent strengths</h2>
-            </div>
-            <p class="section-copy">This live site stays intentionally selective. It highlights the project stories I would want a hiring team to see first, not every project I have touched.</p>
-          </div>
-          <div class="project-grid">
-            ${featuredSelection.map((project) => renderProjectCard(project, `#project-${project.slug}`)).join("")}
-          </div>
-        </section>
-
-        <section class="section" id="value">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Fit</p>
-              <h2>What I bring to a frontend team beyond implementation alone</h2>
-            </div>
-            <p class="section-copy">This is the layer that usually matters after the resume scan: how I think, where I add leverage and why my background is useful in cross-functional teams.</p>
-          </div>
-          <div class="value-pillar-grid">
-            ${(liveSite.valuePillars ?? []).map(renderValuePillar).join("")}
-          </div>
-        </section>
-
         <section class="section">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Case studies</p>
               <h2>Detailed project stories</h2>
             </div>
-            <p class="section-copy">Each story is backed by the same source data used for resume generation and job-search preparation.</p>
+            <p class="section-copy">Each story is backed by the same source data used for resume generation.</p>
           </div>
           <div class="case-study-list">
             ${featuredSelection.map(renderProjectSection).join("")}
@@ -588,8 +564,8 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
           <div class="resume-cta-card">
             <div>
               <p class="eyebrow">Resume system</p>
-              <h2>The live resume and PDF are generated from the same source files</h2>
-              <p>Update the source data once, rebuild, and the public resume stays aligned with the downloadable version.</p>
+              <h2>Live resume and PDF generated from the same source files</h2>
+              <p>Update the data once, rebuild, and everything stays aligned.</p>
             </div>
             <div class="button-row">
               <a class="button button-primary" href="${escapeHtml(paths.resumePdf)}">Download PDF</a>
@@ -597,12 +573,12 @@ export function renderLiveHomePage({ generatedOn, profile, resume, featuredProje
             </div>
           </div>
         </section>
-
-        ${renderContactSection(profile)}
       </main>
 
+      ${renderContactSection(profile)}
+
       <footer class="site-footer">
-        <p>Public surface generated from <code>career/</code> and <code>projects/</code>.</p>
+        <p>Generated from <code>career/</code> and <code>projects/</code>.</p>
       </footer>
     `
   });
