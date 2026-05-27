@@ -11,6 +11,13 @@ app.use(express.json());
 app.use(express.static(join(__dirname, "../dist")));
 app.post("/api/contact", handleContact);
 
+const requiredEnv = ["RESEND_API_KEY", "CONTACT_EMAIL", "RESEND_FROM_EMAIL"];
+const missingEnv = requiredEnv.filter((key) => !process.env[key]);
+if (missingEnv.length) {
+  console.error(`Missing required environment variables: ${missingEnv.join(", ")}`);
+  process.exit(1);
+}
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

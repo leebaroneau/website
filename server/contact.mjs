@@ -15,7 +15,7 @@ export function validateContactInput({ name, email, message }) {
 
   if (!message || !message.trim()) {
     errors.push("Message is required.");
-  } else if (message.length > 2000) {
+  } else if (message.trim().length > 2000) {
     errors.push("Message must be 2000 characters or fewer.");
   }
 
