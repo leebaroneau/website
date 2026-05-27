@@ -41,7 +41,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/leebaroneau/website:latest
+          tags: |
+            ghcr.io/leebaroneau/website:latest
+            ghcr.io/leebaroneau/website:${{ github.sha }}
 
       - name: Trigger Coolify deploy
         if: ${{ secrets.COOLIFY_DEPLOY_WEBHOOK != '' }}
