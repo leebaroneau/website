@@ -341,7 +341,14 @@ function renderContactSection(profile) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
     })
-    .then(function(res) { return res.json(); })
+    .then(function(res) {
+      return res.json().catch(function() {
+        throw new Error('Server error. Please try again.');
+      }).then(function(json) {
+        if (!res.ok) throw new Error(json.error || 'Something went wrong.');
+        return json;
+      });
+    })
     .then(function(json) {
       if (json.ok) {
         status.textContent = 'Message sent — I’ll be in touch.';
