@@ -1,5 +1,3 @@
-import { Resend } from "resend";
-
 export function validateContactInput({ name, email, message }) {
   const errors = [];
 
