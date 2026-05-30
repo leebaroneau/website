@@ -1,0 +1,16 @@
+{
+  "title": "Private Job Search Dashboard",
+  "intro": "Internal workspace for tailoring applications, surfacing the right project stories, and keeping resume, cover-letter and outreach material in one place.",
+  "priorityProjects": [
+    "uac-reach",
+    "haverford-brands",
+    "clique-threads",
+    "drkzen"
+  ],
+  "quickActions": [
+    "Tailor resume and featured case studies before applying",
+    "Use the matching cover-letter template, then adapt it to the role",
+    "Pull the strongest relevant project examples before interviews"
+  ]
+}
+

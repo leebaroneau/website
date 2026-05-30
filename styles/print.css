@@ -1,0 +1,105 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  body {
+    font-size: 11px;
+    line-height: 1.35;
+    background: white;
+  }
+
+  body::before,
+  .site-header,
+  .site-footer,
+  .screen-only {
+    display: none !important;
+  }
+
+  .resume-shell,
+  .page-shell {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-sheet,
+  .timeline-card,
+  .skill-group,
+  .education-item,
+  .compact-project {
+    box-shadow: none;
+    background: white;
+  }
+
+  .resume-sheet {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .resume-header {
+    gap: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .resume-sheet h1 {
+    font-size: 28px;
+  }
+
+  .resume-sheet h2 {
+    font-size: 15px;
+  }
+
+  .resume-section {
+    margin-top: 0.8rem;
+  }
+
+  .resume-role-card,
+  .skill-group,
+  .education-item,
+  .compact-project {
+    padding: 0.65rem;
+    border-radius: 10px;
+  }
+
+  .resume-grid,
+  .compact-projects {
+    gap: 0.5rem;
+  }
+
+  .tag,
+  .pill-link,
+  .contact-links a,
+  .contact-links span,
+  .resume-contact a,
+  .resume-contact span {
+    min-height: 0;
+    padding: 0.2rem 0.45rem;
+    font-size: 0.72rem;
+  }
+
+  .bullet-list {
+    margin: 0.35rem 0 0;
+    padding-left: 0.95rem;
+  }
+
+  .bullet-list li + li {
+    margin-top: 0.15rem;
+  }
+
+  .resume-section,
+  .timeline-card,
+  .skill-group,
+  .education-item,
+  .compact-project {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
